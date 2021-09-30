@@ -1,0 +1,36 @@
+.Activity {
+	display: flex;
+	gap: 8px;
+	padding: 8px;
+	align-items: center;
+	height: 2em;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:visited {
+		color: inherit;
+		background: #EFEFEF;
+	}
+
+	&:hover {
+		background: #EEE;
+	}
+	
+	&__thinking {
+		font-size: 2em;
+	}
+
+	&__icon {
+		width: 2em;
+		height: 2em;
+		background-size: contain;
+		background-repeat: none;
+		background-position: center center;
+		flex: 0 0 auto;
+	}
+	
+	&__name {
+		flex: 1 1 auto;
+	}
+}
